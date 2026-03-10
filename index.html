@@ -39,7 +39,7 @@
     <meta name="twitter:title" content="Reformas Integrales en Madrid | Reformas R.G.A." />
     <meta name="twitter:description" content="Renueva tu hogar, oficina o local con la máxima calidad, eficiencia y más de 35 años de experiencia." />
     <meta name="twitter:image" content="https://reformasintegralesrga.com/images/pintor_profesional.jpeg?v=2" />
-    <meta name="twitter:image:alt" content="Pintor profesional de Reformas R.G.A. trabajando en una obra de renovación en Madrid" />
+    <meta name="twitter:image:alt" content="Pintor profesional87 de Reformas R.G.A. trabajando en una obra de renovación en Madrid" />
     <meta name="google-site-verification" content="cPLRsq34_0iqlkT2pcMBvDoKyfkgBISzKnJ-6oGXey8" />
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.png" type="image/png">
@@ -105,11 +105,6 @@
                 {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Electricidad y climatización"}},
                 {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Pintura profesional"}}
             ]
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "87"
         }
     }
     </script>
@@ -118,6 +113,8 @@
 
 <!-- Skip to content (A11y) -->
 <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+
 
 <!-- ========== NAVBAR ========== -->
 <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top" role="navigation" aria-label="Navegación principal">
@@ -684,5 +681,34 @@
     });
 </script>
 
+<!-- ========== GOOGLE ANALYTICS 4 – MODO SIN COOKIES (cookieless) ========== -->
+<!-- Sin cookies → sin banner de consentimiento requerido (RGPD art. 6.1.f)  -->
+<!-- Sustituye G-XXXXXXXXXX por tu ID real de GA4                             -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+
+  // Modo consentimiento: denegamos almacenamiento de cookies analíticas y de ads
+  gtag('consent', 'default', {
+    analytics_storage: 'denied',
+    ad_storage:        'denied',
+    wait_for_update:   500
+  });
+
+  gtag('js', new Date());
+
+  // client_storage: 'none'  → GA4 no escribe ninguna cookie _ga / _gid
+  // anonymize_ip: true      → IPs anonimizadas (cumple RGPD sin consentimiento)
+  gtag('config', 'G-XXXXXXXXXX', {
+    client_storage: 'none',
+    anonymize_ip:   true
+  });
+</script>
+<!-- /GOOGLE ANALYTICS 4 -->
+
+
 </body>
 </html>
+
+
