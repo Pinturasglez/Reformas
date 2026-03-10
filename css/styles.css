@@ -3217,11 +3217,16 @@ a:hover.back-to-top {
 .logo-reformas {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 1.15rem;
+    font-size: 0.95rem;
     color: rgba(255, 255, 255, 0.92);
-    letter-spacing: 0.04em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     transition: var(--transition);
+}
+
+@media (max-width: 400px) {
+    .logo-reformas { font-size: 0.78rem; }
+    .logo-initials { font-size: 1rem; }
 }
 
 .logo-dot {
